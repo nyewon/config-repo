@@ -1,2 +1,5 @@
-service:
- name: test service for Production B
+ service:
+  name: "Service B - Production Environment"
+ logging:
+  level:
+    root: WARN
